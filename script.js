@@ -14,10 +14,10 @@ function updateClock() {
 }
 
 function setRandomBackgroundImage() {
-  const backgroundImages = ['background.jpg', 'cafe_jenesais.jpg', 'cozy_cabin.jpg', 'dark_academia.jpg', 'flocus_hollow.jpg', 'drivers_seat.jpg', 'fall_central_park.jpg', 'fuji.jpg', 'holiday_street.jpg', 'lofi_cafe.jpg', 'morning_library.jpg', 'pumpkin_patch.jpg', 'sakura_street.jpg', 'winter_cabin.jpg', 'wisdom_forest.jpg'];
+  const backgroundImages = ['background/classic.jpg', 'background/cafe_jenesais.jpg', 'background/cozy_cabin.jpg', 'background/dark_academia.jpg', 'background/flocus_hollow.jpg', 'background/drivers_seat.jpg', 'background/fall_central_park.jpg', 'background/fuji.jpg', 'background/holiday_street.jpg', 'background/lofi_cafe.jpg', 'background/morning_library.jpg', 'background/pumpkin_patch.jpg', 'background/sakura_street.jpg', 'background/winter_cabin.jpg', 'background/wisdom_forest.jpg'];
   const randomIndex = Math.floor(Math.random() * backgroundImages.length);
   const randomImage = backgroundImages[randomIndex];
-  document.getElementById('BackgroundImage').src = randomImage; // Use the correct ID here
+  document.getElementById('BackgroundImage').style.backgroundImage = `url(${randomImage})`;
 }
 
 function setGreeting() {
