@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Cindie2';
+    src: local('Cindie2'), url('cindie2-M.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'signategrotesk';
+    src: local('signategrotesk'), url('signategrotesk-black.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Amble';
+    src: local('Amble'), url('Amble-Bold.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Dogma';
+    src: local('Dogma'), url('dogma\ demo.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Soegja';
+    src: local('Soegja'), url('soegja.ttf  ') format('truetype'); /* Adjust the font file name and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5) for the darkness level */
+    z-index: 0; /* Set the z-index to be below other elements */
+  }
+  
+  .clock, .thought, .quote, .greeting, #song, .spotify-playlist, .logo, .text {
+    color: #fff;
+    z-index: 1;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+    font-size: 66px;
+    font-family: 'Dogma', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .text {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Soegja', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 184px;
+    font-family: 'Cindie2', sans-serif; /* Use the 'Cindie2' font */
+    border: 0px solid #ccc;
+    padding: 10px;
+  }
+  
+  .quote {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    font-size: 26px;
+    font-family: 'signategrotesk', sans-serif; /* Use the 'Cindie2' font */
+    border: 0px solid #ccc;
+    padding: 10px;
+    
+  }
+  
+  .greeting, #song {
+    position: absolute;
+    color: #fff;
+  }
+  
+  .greeting {
+    bottom: 440px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 37px;
+    font-family: 'Amble', sans-serif; /* Use the 'Cindie2' font */
+    text-align: center;
+  }
+  
+  #song {
+    bottom: 20px;
+    left: 200px;
+  }
+  .spotify-playlist {
+    position: absolute;
+    bottom: 15px;
+    left: 200px;      
+  }
+
+  .courtesy-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 9px;
+  }
