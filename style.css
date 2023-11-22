@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Cindie2';
-    src: local('Cindie2'), url('fonts/cindie2-M.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('Cindie2'), url('fonts/Cindie2-M.ttf') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: 'signategrotesk';
-    src: local('signategrotesk'), url('fonts/signategrotesk-black.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('signategrotesk'), url('Fonts/signategrotesk-black.ttf') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
@@ -43,6 +43,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-size: cover;
   }
 
 
