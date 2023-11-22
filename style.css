@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'Cindie2';
-    src: local('Cindie2'), url('cindie2-M.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('Cindie2'), url('fonts/cindie2-M.ttf') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: 'signategrotesk';
-    src: local('signategrotesk'), url('signategrotesk-black.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('signategrotesk'), url('fonts/signategrotesk-black.ttf') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: 'Amble';
-    src: local('Amble'), url('Amble-Bold.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('Amble'), url('Fonts/Amble-Bold.ttf') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: 'Dogma';
-    src: local('Dogma'), url('dogma\ demo.ttf') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('Dogma'), url('Fonts/dogma\ demo.ttf') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: 'Soegja';
-    src: local('Soegja'), url('soegja.ttf  ') format('truetype'); /* Adjust the font file name and format as needed */
+    src: local('Soegja'), url('Fonts/soegja.ttf  ') format('truetype'); /* Adjust the font file name and format as needed */
     font-weight: normal;
     font-style: normal;
   }
