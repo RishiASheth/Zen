@@ -113,7 +113,8 @@
   }
   
   .greeting {
-    bottom: 440px;
+    position: absolute;
+    top: calc(50% - 200px); /* 30px above the center of the screen */
     left: 50%;
     transform: translateX(-50%);
     font-size: 37px;
